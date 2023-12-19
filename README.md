@@ -39,3 +39,6 @@ The bulk of operations are done in this file - data is extracted, transformed, a
 This file is used to pull data from the MySQL database. This function could be included in the original file, but it would result in a csv file being written each time, so it was separated for efficiency. As before, you will need to update -
 * Database details - as above
 * columns1, columns2 and columns3 - any changes to what data is stored need to be changed here as well, though this is less in depth. You only need to edit the column name list relevant to you.
+
+## Additional Notes
+This will vary with the tier of account you use, but in this case, I used the free API, which entitled me to an upper limit of 1000 calls per day, at a rate of 60 calls per minute, as well as limiting what options I could access. As a result, I limited the rate of calls to every 30 minutes, for greater depth of data, but only used 6 cities. Depending on your case, you will need to assign your workflow accordingly. Pricing information can be found here - https://openweathermap.org/price
