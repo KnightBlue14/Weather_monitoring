@@ -18,7 +18,7 @@ def create_db_connection():
         connection = mysql.connector.connect(
             host='127.0.0.1',
             user='root',
-            passwd='Swarmlord32!',
+            passwd='{password}',
             database='weather')
     except Error as err:
         print(f"Error: '{err}'")
