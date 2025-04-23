@@ -9,7 +9,7 @@ date = dt.datetime.now()
 stamp = date.strftime('%Y-%m-%d %H:%M:%S')
 count = 1
 #API key from OpenWeather account
-API_key = '102e0a679a3a42752b6b8a38055962e5'
+API_key = '{key}'
 
 #City names, co-ordinates and populations, plus column names for the big loop
 dic = {'London':[51.509865,-0.118092],'Leeds':[53.79648,-1.54785],
